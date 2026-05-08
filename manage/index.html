@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>HOSIZO Online Manager</title>
+    <link rel="stylesheet" href="./manage.css?v=20260508-3">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">HOSIZO</a>
+      <div class="top-actions">
+        <button id="load-site" type="button">加载线上内容</button>
+        <button id="save-site" type="button">保存到线上</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel auth-panel">
+        <div>
+          <p class="eyebrow">Online manager</p>
+          <h1>线上作品管理</h1>
+          <p>在这里可以直接修改 hosizo.cn 的文字、封面和图库。保存后 GitHub Pages 会自动更新。</p>
+        </div>
+        <div class="auth-grid">
+          <label>
+            <span>GitHub token</span>
+            <input id="github-token" type="password" placeholder="只需要 repo contents 写入权限">
+          </label>
+          <label class="remember">
+            <input id="remember-token" type="checkbox">
+            <span>记住到这个浏览器</span>
+          </label>
+          <details>
+            <summary>高级设置</summary>
+            <div class="settings-grid">
+              <label>
+                <span>Owner</span>
+                <input id="repo-owner" value="shardbigwhite-dotcom">
+              </label>
+              <label>
+                <span>Repo</span>
+                <input id="repo-name" value="hosizo-portfolio">
+              </label>
+              <label>
+                <span>Branch</span>
+                <input id="repo-branch" value="gh-pages">
+              </label>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Profile</p>
+            <h2>基本信息</h2>
+          </div>
+        </div>
+        <div class="form-grid" id="profile-form"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Works</p>
+            <h2>作品</h2>
+          </div>
+          <button id="add-project" type="button">新增作品</button>
+        </div>
+        <div id="projects-form" class="projects-form"></div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status"></div>
+    <script src="./manage.js?v=20260508-3" type="module"></script>
+  </body>
+</html>

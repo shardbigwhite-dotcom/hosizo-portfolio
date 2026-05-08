@@ -1,0 +1,334 @@
+{
+  "profile": {
+    "name": "HOSIZO",
+    "role": {
+      "en": "Digital Imaging Designer / CG Artist",
+      "zh": "数字影像设计师 / CG Artist"
+    },
+    "location": {
+      "en": "Shenzhen / Remote",
+      "zh": "深圳 / 远程协作"
+    },
+    "intro": {
+      "en": "A portfolio of CG objects, creature studies, cinematic image design, and scanner-based visual experiments. The work moves between hard-surface modeling, organic forms, render lookdev, and image direction.",
+      "zh": "这里展示 CG 道具、怪物形体、电影感影像设计与扫描实验。作品围绕硬表面建模、有机形体、渲染风格开发和影像方向展开。"
+    },
+    "availability": {
+      "en": "CG visual development, product/object rendering, creature concept images, cinematic key visuals, and image post-production.",
+      "zh": "CG 视觉开发、产品/道具渲染、怪物概念影像、电影感主视觉与影像后期。"
+    },
+    "email": "1803163601@qq.com",
+    "social": "instagram.com/hosizo"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": {
+        "en": "All Work",
+        "zh": "全部作品"
+      }
+    },
+    {
+      "id": "vehicle",
+      "label": {
+        "en": "Vehicle",
+        "zh": "载具"
+      }
+    },
+    {
+      "id": "creature",
+      "label": {
+        "en": "Creature",
+        "zh": "怪物"
+      }
+    },
+    {
+      "id": "object",
+      "label": {
+        "en": "Object",
+        "zh": "道具"
+      }
+    },
+    {
+      "id": "sculpture",
+      "label": {
+        "en": "Sculpture",
+        "zh": "雕塑"
+      }
+    },
+    {
+      "id": "scan",
+      "label": {
+        "en": "Scan",
+        "zh": "扫描"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "akira-bike",
+      "title": {
+        "en": "AKIRA Bike",
+        "zh": "AKIRA 机车"
+      },
+      "subtitle": {
+        "en": "Cinematic vehicle renders with high-saturation motion, industrial details, and graphic title frames.",
+        "zh": "高饱和电影感载具渲染，结合工业细节、运动感和标题画面。"
+      },
+      "year": "2022",
+      "category": "vehicle",
+      "cover": "/uploads/works/akira-01.jpg",
+      "coverPosition": {
+        "x": 16,
+        "y": 43
+      },
+      "featured": true,
+      "gallery": [
+        "/uploads/works/akira-01.jpg",
+        "/uploads/works/akira-02.jpg",
+        "/uploads/works/akira-03.jpg",
+        "/uploads/works/akira-04.jpg",
+        "/uploads/works/akira-05.jpg",
+        "/uploads/works/akira-06.jpg"
+      ],
+      "description": {
+        "en": "A CG image series inspired by cyberpunk vehicle culture. The set balances close material reads, frame-like compositions, and a noisy digital finish for a cinematic portfolio sequence.",
+        "zh": "一组受赛博朋克载具文化启发的 CG 影像。系列在材质近景、电影分镜式构图和数字噪点质感之间取得平衡，形成完整的作品集序列。"
+      },
+      "credits": {
+        "en": "Owner: Kaneua / Producer: HOSIZOYg / Render: Blender",
+        "zh": "Owner: Kaneua / Producer: HOSIZO / Render: Blender"
+      },
+      "tags": {
+        "en": [
+          "Blender",
+          "Vehicle",
+          "Key Visual"
+        ],
+        "zh": [
+          "Blender",
+          "载具",
+          "主视觉"
+        ]
+      }
+    },
+    {
+      "id": "baneling-organic",
+      "title": {
+        "en": "SC2 Baneling",
+        "zh": "SC2毒爆虫"
+      },
+      "subtitle": {
+        "en": "Creature surface exploration with pearlescent shells, wet membranes, and repeated body fragments.",
+        "zh": "怪物表面研究：珍珠质外壳、湿润膜结构和重复身体切片。"
+      },
+      "year": "2023",
+      "category": "creature",
+      "cover": "/uploads/works/baneling-01.jpg",
+      "coverPosition": {
+        "x": 46,
+        "y": 51
+      },
+      "featured": true,
+      "gallery": [
+        "/uploads/works/baneling-10.jpg",
+        "/uploads/works/baneling-00.jpg",
+        "/uploads/works/baneling-01.jpg",
+        "/uploads/works/baneling-02.jpg",
+        "/uploads/works/baneling-04.jpg",
+        "/uploads/works/baneling-05.jpg"
+      ],
+      "description": {
+        "en": "A creature lookdev set focused on bulbous volume, translucent highlights, and unsettling repetition. The images are arranged like specimen plates rather than single hero shots.",
+        "zh": "以膨胀体积、半透明高光和不安的重复结构为重点的怪物 lookdev。画面更像标本图版，而不是单张英雄图。"
+      },
+      "credits": {
+        "en": "Creature modeling, material study, render composition",
+        "zh": "怪物建模、材质研究、渲染构图"
+      },
+      "tags": {
+        "en": [
+          "Creature",
+          "Organic",
+          "Lookdev"
+        ],
+        "zh": [
+          "怪物",
+          "有机",
+          "Lookdev"
+        ]
+      }
+    },
+    {
+      "id": "green-terminal-prop",
+      "title": {
+        "en": "Green Terminal Prop",
+        "zh": "绿色终端道具"
+      },
+      "subtitle": {
+        "en": "Hard-surface prop rendering with weathered paint, metal plates, stickers, and close-up material reads.",
+        "zh": "硬表面道具渲染，包含旧化漆面、金属铭牌、贴纸和材质近景。"
+      },
+      "year": "2022",
+      "category": "object",
+      "cover": "/uploads/works/prop-phone-main.jpg",
+      "coverPosition": {
+        "x": 50,
+        "y": 50
+      },
+      "featured": true,
+      "gallery": [
+        "/uploads/works/prop-phone-main.jpg",
+        "/uploads/works/prop-phone-detail.jpg"
+      ],
+      "description": {
+        "en": "A prop visualization study designed around tactile wear, dense mechanical surfaces, and a strong silhouette that still reads in extremely wide compositions.",
+        "zh": "围绕可触摸的磨损感、密集机械表面和强轮廓展开的道具可视化研究，即使在超宽构图中也能保持识别度。"
+      },
+      "credits": {
+        "en": "Hard-surface design, texture, render",
+        "zh": "硬表面设计、贴图、渲染"
+      },
+      "tags": {
+        "en": [
+          "Hard Surface",
+          "Texture",
+          "Prop"
+        ],
+        "zh": [
+          "硬表面",
+          "贴图",
+          "道具"
+        ]
+      }
+    },
+    {
+      "id": "statue-render",
+      "title": {
+        "en": "Statue Render Set",
+        "zh": "雕像渲染组"
+      },
+      "subtitle": {
+        "en": "Material and lighting passes for a sculptural figure with museum-like stillness.",
+        "zh": "带有博物馆式静止感的人像雕塑材质与灯光渲染。"
+      },
+      "year": "2024",
+      "category": "sculpture",
+      "cover": "/uploads/works/statue-01.jpg",
+      "coverPosition": {
+        "x": 50,
+        "y": 50
+      },
+      "featured": false,
+      "gallery": [
+        "/uploads/works/statue-01.jpg",
+        "/uploads/works/statue-03.jpg",
+        "/uploads/works/statue-04.jpg"
+      ],
+      "description": {
+        "en": "A compact render set studying controlled highlights, clay-like surfaces, and the shift between object documentation and editorial image.",
+        "zh": "一组紧凑的渲染研究，关注可控高光、泥塑般的表面，以及物件记录与编辑影像之间的转换。"
+      },
+      "credits": {
+        "en": "Lighting, material tuning, render selection",
+        "zh": "灯光、材质调试、渲染选片"
+      },
+      "tags": {
+        "en": [
+          "Sculpture",
+          "Lighting",
+          "Material"
+        ],
+        "zh": [
+          "雕塑",
+          "灯光",
+          "材质"
+        ]
+      }
+    },
+    {
+      "id": "character-study",
+      "title": {
+        "en": "Character Study",
+        "zh": "角色研究"
+      },
+      "subtitle": {
+        "en": "A single-frame character render for silhouette, fabric volume, and atmospheric framing.",
+        "zh": "围绕角色轮廓、服装体积和氛围构图展开的单帧渲染。"
+      },
+      "year": "2024",
+      "category": "sculpture",
+      "cover": "/uploads/works/character.jpg",
+      "coverPosition": {
+        "x": 50,
+        "y": 50
+      },
+      "featured": false,
+      "gallery": [
+        "/uploads/works/character.jpg"
+      ],
+      "description": {
+        "en": "A character image built for immediate read: strong posture, broad clothing mass, and a restrained background to keep the figure central.",
+        "zh": "一张强调快速识别的角色影像：明确的姿态、大块服装体积和克制背景，让人物成为视觉中心。"
+      },
+      "credits": {
+        "en": "Character render, image direction",
+        "zh": "角色渲染、影像方向"
+      },
+      "tags": {
+        "en": [
+          "Character",
+          "Frame",
+          "CG"
+        ],
+        "zh": [
+          "角色",
+          "单帧",
+          "CG"
+        ]
+      }
+    },
+    {
+      "id": "bloom-scan",
+      "title": {
+        "en": "Bloom Scan",
+        "zh": "繁花扫描"
+      },
+      "subtitle": {
+        "en": "Scanner-based image experiment with saturated floral texture and flatbed depth.",
+        "zh": "以扫描仪为基础的影像实验，强调饱和花卉纹理和平板景深。"
+      },
+      "year": "2024",
+      "category": "scan",
+      "cover": "/uploads/works/bloom-scan.jpg",
+      "coverPosition": {
+        "x": 50,
+        "y": 50
+      },
+      "featured": false,
+      "gallery": [
+        "/uploads/works/bloom-scan.jpg"
+      ],
+      "description": {
+        "en": "A tactile image study using the scanner as a camera, preserving compressed depth, dust, and color intensity as part of the final image language.",
+        "zh": "把扫描仪当作相机使用的触感影像研究，保留被压缩的空间、灰尘和高饱和色彩，作为最终语言的一部分。"
+      },
+      "credits": {
+        "en": "Scan, color treatment, image edit",
+        "zh": "扫描、色彩处理、影像编辑"
+      },
+      "tags": {
+        "en": [
+          "Scan",
+          "Texture",
+          "Color"
+        ],
+        "zh": [
+          "扫描",
+          "纹理",
+          "色彩"
+        ]
+      }
+    }
+  ]
+}

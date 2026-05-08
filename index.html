@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HOSIZO digital imaging and CG portfolio">
+    <title>HOSIZO - Digital Imaging Designer</title>
+    <link rel="stylesheet" href="styles.css?v=20260508-3">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Home">HOSIZO</a>
+      <div class="header-actions">
+        <nav aria-label="Portfolio">
+          <a href="#work" data-i18n="work">Work</a>
+          <a href="#profile" data-i18n="profile">Profile</a>
+        </nav>
+        <div class="lang-toggle" id="lang-toggle" aria-label="Language">
+          <button type="button" data-lang="zh">中</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-media" id="hero-media"></div>
+        <div class="hero-copy">
+          <p id="profile-role">Digital Imaging Designer</p>
+          <h1 id="profile-name">HOSIZO</h1>
+          <p id="profile-intro"></p>
+        </div>
+      </section>
+
+      <section class="work-shell" id="work">
+        <div class="section-head">
+          <h2 id="work-title">Work</h2>
+          <div class="filter-row" id="filters" aria-label="Project filters"></div>
+        </div>
+        <div class="work-grid" id="work-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="profile-band" id="profile">
+        <div>
+          <p class="label" id="available-label">Available for</p>
+          <h2 id="availability"></h2>
+        </div>
+        <div class="profile-card">
+          <p id="profile-location"></p>
+          <a id="profile-email" href="mailto:hello@example.com"></a>
+          <a id="profile-social" href="#" target="_blank" rel="noreferrer"></a>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="project-dialog">
+      <button class="icon-close" id="dialog-close" aria-label="Close">x</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <script src="app.js?v=20260508-3" type="module"></script>
+  </body>
+</html>
